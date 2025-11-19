@@ -24,7 +24,7 @@ function clearEntry() {
     }
 }
 
-function deleteLast() {
+function backspace() {
     resultInput.value = resultInput.value.slice(0, -1);
 }
 
