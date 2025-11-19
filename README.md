@@ -2,6 +2,10 @@
 
 A simple calculator application built with HTML, CSS, and JavaScript.
 
+## Project Status
+
+This project is complete.
+
 ## Features
 
 - Basic arithmetic operations: addition, subtraction, multiplication, division, and percentage.
