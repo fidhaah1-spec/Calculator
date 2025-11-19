@@ -63,6 +63,10 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 This project has adopted the [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/).
 
+## Security
+
+If you find a security vulnerability, please report it by opening an issue on the [GitHub repository](https://github.com/fidhaah1-spec/Calculator/issues).
+
 ## Support
 
 If you have any questions or need support, please open an issue on the [GitHub repository](https://github.com/fidhaah1-spec/Calculator/issues).
