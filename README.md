@@ -18,3 +18,7 @@ A simple calculator application built with HTML, CSS, and JavaScript.
 1.  Clone the repository to your local machine.
 2.  Open the `index.html` file in your web browser.
 3.  Use the buttons or your keyboard to perform calculations.
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
