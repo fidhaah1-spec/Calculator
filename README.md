@@ -43,6 +43,10 @@ This project is complete.
 2.  Open the `index.html` file in your web browser.
 3.  Use the buttons or your keyboard to perform calculations.
 
+## Deployment
+
+To deploy this project, simply upload the `index.html`, `style.css`, and `script.js` files to a web server.
+
 ## Screenshots
 
 ![Calculator screenshot](screenshot.png)
