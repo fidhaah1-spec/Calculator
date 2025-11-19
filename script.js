@@ -1,5 +1,20 @@
 const resultInput = document.getElementById('result');
 
+document.addEventListener('keydown', function(event) {
+    const key = event.key;
+    if (/[0-9]/.test(key)) {
+        appendResult(key);
+    } else if (['+', '-', '*', '/', '%'].includes(key)) {
+        appendResult(key);
+    } else if (key === 'Enter') {
+        calculateResult();
+    } else if (key === 'Backspace') {
+        backspace();
+    } else if (key === 'Delete') {
+        clearResult();
+    }
+});
+
 function appendResult(value) {
     const lastChar = resultInput.value.slice(-1);
     const operators = ['+', '-', '*', '/', '%'];
