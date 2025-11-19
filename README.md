@@ -6,6 +6,25 @@
 
 A simple calculator application built with HTML, CSS, and JavaScript.
 
+## Table of Contents
+
+- [Project Status](#project-status)
+- [Changelog](#changelog)
+- [Features](#features)
+- [How to Use](#how-to-use)
+- [Deployment](#deployment)
+- [FAQ](#faq)
+- [Screenshots](#screenshots)
+- [To-Do](#to-do)
+- [Contributing](#contributing)
+- [Code of Conduct](#code-of-conduct)
+- [Security](#security)
+- [Support](#support)
+- [Privacy Policy](#privacy-policy)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgments](#acknowledgments)
+
 ## Project Status
 
 This project is complete.
