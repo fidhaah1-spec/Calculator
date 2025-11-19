@@ -63,6 +63,10 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 If you have any questions or need support, please open an issue on the [GitHub repository](https://github.com/fidhaah1-spec/Calculator/issues).
 
+## Privacy Policy
+
+This calculator does not collect any personal data.
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
