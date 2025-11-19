@@ -1,7 +1,14 @@
 const resultInput = document.getElementById('result');
 
 function appendResult(value) {
-    resultInput.value += value;
+    const lastChar = resultInput.value.slice(-1);
+    const operators = ['+', '-', '*', '/', '%'];
+
+    if (operators.includes(lastChar) && operators.includes(value)) {
+        resultInput.value = resultInput.value.slice(0, -1) + value;
+    } else {
+        resultInput.value += value;
+    }
 }
 
 function clearResult() {
