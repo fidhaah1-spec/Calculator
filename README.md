@@ -22,6 +22,7 @@ A simple calculator application built with HTML, CSS, and JavaScript.
 - [Support](#support)
 - [Privacy Policy](#privacy-policy)
 - [License](#license)
+- [Author](#author)
 - [Contact](#contact)
 - [Acknowledgments](#acknowledgments)
 
@@ -112,6 +113,10 @@ This calculator does not collect any personal data.
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## Author
+
+- **fidhaah1-spec** - [fidhaah1-spec](https://github.com/fidhaah1-spec)
 
 ## Contact
 
