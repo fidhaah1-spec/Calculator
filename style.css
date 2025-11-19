@@ -45,6 +45,7 @@ body {
     cursor: pointer;
     background-color: #666;
     color: #fff;
+    transition: all 0.1s ease-in-out;
 }
 
 .buttons button:hover {
@@ -53,6 +54,7 @@ body {
 
 .buttons button:active {
     background-color: #888;
+    transform: scale(0.95);
 }
 
 .buttons button.operator {
