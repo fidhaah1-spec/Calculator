@@ -52,7 +52,12 @@ function backspace() {
 
 function calculateResult() {
     try {
-        resultInput.value = eval(resultInput.value);
+        const expression = resultInput.value;
+        if (expression.includes('/0')) {
+            resultInput.value = 'Error: Division by zero';
+        } else {
+            resultInput.value = eval(expression);
+        }
     } catch (error) {
         resultInput.value = 'Error';
     }
