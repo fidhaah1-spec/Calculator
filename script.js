@@ -1,4 +1,5 @@
 const resultInput = document.getElementById('result');
+let isResultCalculated = false;
 
 document.addEventListener('keydown', function(event) {
     const key = event.key;
@@ -16,6 +17,10 @@ document.addEventListener('keydown', function(event) {
 });
 
 function appendResult(value) {
+    if (isResultCalculated && /^[0-9]+$/.test(value)) {
+        resultInput.value = '';
+    }
+
     const lastChar = resultInput.value.slice(-1);
     const operators = ['+', '-', '*', '/', '%'];
 
@@ -24,10 +29,12 @@ function appendResult(value) {
     } else {
         resultInput.value += value;
     }
+    isResultCalculated = false;
 }
 
 function clearResult() {
     resultInput.value = '';
+    isResultCalculated = false;
 }
 
 function clearEntry() {
@@ -44,10 +51,12 @@ function clearEntry() {
     } else {
         resultInput.value = '';
     }
+    isResultCalculated = false;
 }
 
 function backspace() {
     resultInput.value = resultInput.value.slice(0, -1);
+    isResultCalculated = false;
 }
 
 function calculateResult() {
@@ -57,6 +66,7 @@ function calculateResult() {
             resultInput.value = 'Error: Division by zero';
         } else {
             resultInput.value = eval(expression);
+            isResultCalculated = true;
         }
     } catch (error) {
         resultInput.value = 'Error';
