@@ -47,6 +47,16 @@ This project is complete.
 
 To deploy this project, simply upload the `index.html`, `style.css`, and `script.js` files to a web server.
 
+## FAQ
+
+**Q: Can I use this calculator on my website?**
+
+A: Yes, you can use this calculator on your website. It is licensed under the MIT License, which allows you to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software.
+
+**Q: Can I contribute to this project?**
+
+A: Yes, you can contribute to this project. Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
 ## Screenshots
 
 ![Calculator screenshot](screenshot.png)
