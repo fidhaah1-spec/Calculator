@@ -59,6 +59,10 @@ This project is complete.
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
+## Support
+
+If you have any questions or need support, please open an issue on the [GitHub repository](https://github.com/fidhaah1-spec/Calculator/issues).
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
