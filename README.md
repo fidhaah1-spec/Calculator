@@ -12,12 +12,19 @@ A simple calculator application built with HTML, CSS, and JavaScript.
 - Accessible with `aria-label` attributes for screen readers.
 - Prevents multiple operators in a row.
 - Handles division by zero.
+- Allows operation chaining.
 
 ## How to Use
 
 1.  Clone the repository to your local machine.
 2.  Open the `index.html` file in your web browser.
 3.  Use the buttons or your keyboard to perform calculations.
+
+## Screenshots
+
+![Calculator screenshot](screenshot.png)
+
+*Note: A screenshot will be added soon.*
 
 ## Contributing
 
