@@ -59,6 +59,10 @@ This project is complete.
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
+## Code of Conduct
+
+This project has adopted the [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/).
+
 ## Support
 
 If you have any questions or need support, please open an issue on the [GitHub repository](https://github.com/fidhaah1-spec/Calculator/issues).
