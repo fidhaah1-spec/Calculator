@@ -1,5 +1,8 @@
 # Calculator
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/fidhaah1-spec/Calculator)
+
 A simple calculator application built with HTML, CSS, and JavaScript.
 
 ## Project Status
