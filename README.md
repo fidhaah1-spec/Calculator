@@ -26,6 +26,12 @@ A simple calculator application built with HTML, CSS, and JavaScript.
 
 *Note: A screenshot will be added soon.*
 
+## To-Do
+
+- Add more advanced mathematical functions (e.g., square root, exponentiation).
+- Add a history of calculations.
+- Add the ability to customize the theme.
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
