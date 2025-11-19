@@ -6,6 +6,22 @@ A simple calculator application built with HTML, CSS, and JavaScript.
 
 This project is complete.
 
+## Changelog
+
+- **v1.0.0** (2025-11-19): Initial release.
+- **v1.1.0** (2025-11-19):
+    - Added "Clear Entry" (CE) and "Backspace" functionalities.
+    - Updated the color scheme to a more modern design.
+    - Added keyboard support for numbers, operators, "Enter", "Backspace", and "Delete".
+    - Added `aria-label` attributes to buttons for improved accessibility.
+    - Added a `lang` attribute to the `html` tag for improved accessibility.
+    - Added a button click animation for visual feedback.
+    - Added a `role="calculator"` attribute to the main `div` for improved accessibility.
+    - The calculator now prevents multiple operators in a row.
+    - The calculator now handles division by zero.
+    - The calculator now allows operation chaining.
+    - Updated the `README.md` file with more information about the project.
+
 ## Features
 
 - Basic arithmetic operations: addition, subtraction, multiplication, division, and percentage.
