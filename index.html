@@ -9,29 +9,29 @@
 <body>
     <div class="calculator">
         <div class="display">
-            <input type="text" id="result" disabled>
+            <input type="text" id="result" disabled aria-label="Calculator display">
         </div>
         <div class="buttons">
-            <button onclick="clearResult()">C</button>
-            <button onclick="clearEntry()">CE</button>
-            <button onclick="backspace()">←</button>
-            <button class="operator" onclick="appendResult('%')">%</button>
-            <button class="operator" onclick="appendResult('/')">/</button>
-            <button onclick="appendResult('7')">7</button>
-            <button onclick="appendResult('8')">8</button>
-            <button onclick="appendResult('9')">9</button>
-            <button class="operator" onclick="appendResult('*')">*</button>
-            <button onclick="appendResult('4')">4</button>
-            <button onclick="appendResult('5')">5</button>
-            <button onclick="appendResult('6')">6</button>
-            <button class="operator" onclick="appendResult('-')">-</button>
-            <button onclick="appendResult('1')">1</button>
-            <button onclick="appendResult('2')">2</button>
-            <button onclick="appendResult('3')">3</button>
-            <button class="operator" onclick="appendResult('+')">+</button>
-            <button onclick="appendResult('0')">0</button>
-            <button onclick="appendResult('.')">.</button>
-            <button class="equals" onclick="calculateResult()">=</button>
+            <button onclick="clearResult()" aria-label="Clear">C</button>
+            <button onclick="clearEntry()" aria-label="Clear entry">CE</button>
+            <button onclick="backspace()" aria-label="Backspace">←</button>
+            <button class="operator" onclick="appendResult('%')" aria-label="Percent">%</button>
+            <button class="operator" onclick="appendResult('/')" aria-label="Divide">/</button>
+            <button onclick="appendResult('7')" aria-label="Seven">7</button>
+            <button onclick="appendResult('8')" aria-label="Eight">8</button>
+            <button onclick="appendResult('9')" aria-label="Nine">9</button>
+            <button class="operator" onclick="appendResult('*')" aria-label="Multiply">*</button>
+            <button onclick="appendResult('4')" aria-label="Four">4</button>
+            <button onclick="appendResult('5')" aria-label="Five">5</button>
+            <button onclick="appendResult('6')" aria-label="Six">6</button>
+            <button class="operator" onclick="appendResult('-')" aria-label="Subtract">-</button>
+            <button onclick="appendResult('1')" aria-label="One">1</button>
+            <button onclick="appendResult('2')" aria-label="Two">2</button>
+            <button onclick="appendResult('3')" aria-label="Three">3</button>
+            <button class="operator" onclick="appendResult('+')" aria-label="Add">+</button>
+            <button onclick="appendResult('0')" aria-label="Zero">0</button>
+            <button onclick="appendResult('.')" aria-label="Decimal">.</button>
+            <button class="equals" onclick="calculateResult()" aria-label="Equals">=</button>
         </div>
     </div>
     <script src="script.js"></script>
